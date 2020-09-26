@@ -1,0 +1,6 @@
+/.idea
+/.ipynb_checkpoints
+/chromedriver
+/dump.pkl
+/main.py
+/test.html
