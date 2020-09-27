@@ -9,7 +9,7 @@ class BeelineSpider(scrapy.Spider):
     name = 'beeline'
     start_urls = ['https://beeline-tochki.ru/store']
 
-    def parse(self, response):
+    def parse(self, response, **kwargs):
         soup = BeautifulSoup(response.text, 'lxml')
         cites_urls = [url['href'] for url in soup.main.div.div.find_all("div")[2].div.find_all("a")]
         for city_url in cites_urls:

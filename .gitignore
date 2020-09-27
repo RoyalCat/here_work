@@ -1,6 +1,9 @@
 /.idea
+/.vscode
 /.ipynb_checkpoints
 /chromedriver
 /dump.pkl
 /main.py
 /test.html
+/shopsparser/.idea
+/shopsparser/.vscode
